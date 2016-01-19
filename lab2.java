@@ -17,7 +17,7 @@ public class lab2 {
 	// Assume that the original man is also going to St. Ives, so
 	// the boolean variable manGoingToStIves should be true.
 	
-	boolean manGoingToStIves = !true;
+	boolean manGoingToStIves = true;
 
 	short numWives = 7;
 
@@ -35,7 +35,7 @@ public class lab2 {
 	// person going is the narrator
 
 	if (manGoingToStIves) {
-		total = 1+1+7+7^2+7^3+7^4+7^5;
+		total = 1+1+7+49+49*7+49*7*7+7*7*7*7*7;
 	    // 2. Remember, if the original man is going to St. Ives, then
 	    // all of the wives, sacks, cats, and kittens are as well, along
 	    // with the narrator.
@@ -45,6 +45,7 @@ public class lab2 {
 	    total = 1;
 	}
 	
+	System.out.println("The amount of entities going to St .Ives is " + total);
 	// 3. Right before exiting, the system should print
 	// "Number going to St. Ives is " and then, on the same line,
 	// the number going to St. Ives (stored in the _total_ variable).
