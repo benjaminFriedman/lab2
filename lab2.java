@@ -1,6 +1,5 @@
-public class Lab2 {
+public class lab2 {
     
-	int total;
 
     public static void main(String[] args) {
 
@@ -20,15 +19,15 @@ public class Lab2 {
 	
 	boolean manGoingToStIves = !true;
 
-	// short numWives = 8;
+	short numWives = 7;
 
-	// int numSacksPerWife = (double) 7;
+	int numSacksPerWife = 7;
 	
-	// int numCatsPerSack = 7.0;
+	int numCatsPerSack = 7;
 
-	// int numKitsPerCat = (long) 7;
+	int numKitsPerCat = 7;
 
-	// byte total;
+	long total;
 
 	// If the original man is going to St. Ives, then all are going
 	// the narrator, original man, kitten, cats, sacks, wives.
