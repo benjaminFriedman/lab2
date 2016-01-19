@@ -35,11 +35,11 @@ public class lab2 {
 	// person going is the narrator
 
 	if (manGoingToStIves) {
+		total = 1+1+7+7^2+7^3+7^4+7^5;
 	    // 2. Remember, if the original man is going to St. Ives, then
 	    // all of the wives, sacks, cats, and kittens are as well, along
 	    // with the narrator.
 	    // Calculate the number going to St. Ives
-	    total = -1;
 	} else {
 	    // Otherwise, only the narrator is going!
 	    total = 1;
